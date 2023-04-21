@@ -1,3 +1,35 @@
 @startuml
 
+class Miembro{
+
+}
+
+class BoardMember{
+
+}
+
+class Evento{
+
+}
+
+class Conferencia{
+
+}
+
+class BoardMeeting{
+
+}
+
+class Localizacion{
+
+}
+
+class Persona{
+
+}
+
+class AAUOC{
+
+}
+
 @enduml
