@@ -1,7 +1,7 @@
 @startuml
 
 class Miembro{
-
+e-mail : String
 
 }
 
@@ -17,7 +17,7 @@ assign(l : Localizacion)) : void
 }
 
 class Conferencia{
-
+max_attendees : int
 }
 
 class BoardMeeting{
