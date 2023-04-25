@@ -43,5 +43,12 @@ AAUOC o-- Persona
 AAUOC o-- Localizacion
 AAUOC o-- Evento
 
+Persona -- Conferencia
+
+BoardMeeting -- BoardMember
+
+Evento -- Miembro
+
+Localizacion -- Evento
 
 @enduml
