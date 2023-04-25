@@ -39,4 +39,9 @@ Evento <|-- BoardMeeting
 Persona <|-- Miembro
 Miembro <|-- BoardMember
 
+AAUOC o-- Persona
+AAUOC o-- Localizacion
+AAUOC o-- Evento
+
+
 @enduml
