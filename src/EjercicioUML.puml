@@ -48,9 +48,9 @@ Evento <|-- BoardMeeting
 Persona <|-- Miembro
 Miembro <|-- BoardMember
 
-AAUOC o-- Persona
-AAUOC o-- Localizacion
-AAUOC o-- Evento
+AAUOC o-- "0..*" Persona
+AAUOC o-- "0..*" Localizacion
+AAUOC o-- "0..*" Evento
 
 Persona "attendsTo" -- Conferencia
 
