@@ -10,7 +10,9 @@ class BoardMember{
 }
 
 class Evento{
-
+date: Date
+descripcion: String
+assign(l : Localizacion)) : void
 
 }
 
@@ -23,10 +25,12 @@ class BoardMeeting{
 }
 
 class Localizacion{
-
+descripcion : String
+address : String
 }
 
 class Persona{
+name: String
 
 }
 
