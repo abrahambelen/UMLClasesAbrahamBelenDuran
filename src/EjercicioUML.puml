@@ -52,12 +52,13 @@ AAUOC o-- Persona
 AAUOC o-- Localizacion
 AAUOC o-- Evento
 
-Persona -- Conferencia
+Persona "attendsTo" -- Conferencia
 
-BoardMeeting -- BoardMember
+BoardMeeting "attendsTo" -- BoardMember
 
-Evento -- Miembro
+Evento "attendsTo" -- Miembro
 
-Localizacion -- Evento
+Localizacion "isLocated in" -- Evento
+
 
 @enduml
