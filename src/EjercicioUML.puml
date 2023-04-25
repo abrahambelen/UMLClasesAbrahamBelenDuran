@@ -10,6 +10,7 @@ class BoardMember{
 
 class Evento{
 
+
 }
 
 class Conferencia{
@@ -31,5 +32,9 @@ class Persona{
 class AAUOC{
 
 }
+
+Evento <|-- Conferencia
+Evento <|-- BoardMeeting
+
 
 @enduml
