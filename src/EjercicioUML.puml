@@ -2,6 +2,7 @@
 
 class Miembro{
 
+
 }
 
 class BoardMember{
@@ -30,7 +31,11 @@ class Persona{
 }
 
 class AAUOC{
-
+newLocation(l : Localizacion) : void
+newEvent(e : Evento) : void
+newPerson(p : Persona) : void
+informEvent(e : Evento) : void
+register(m : Miembro,e : Event) : void
 }
 
 Evento <|-- Conferencia
